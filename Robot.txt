@@ -1,0 +1,30 @@
+User-agent: *
+Disallow: /viewcart/
+Disallow: /admin/  # Disallow crawling of any admin pages
+Disallow: /checkout/  # Disallow crawling of checkout pages
+Disallow: /search/  # Disallow crawling of search results pages
+Disallow: /contact-us.html  # Disallow crawling of the contact us page
+Disallow: /terms-and-conditions.html  # Disallow crawling of terms and conditions page
+
+# Allow crawling of specific directories
+Allow: /bracelets/
+Allow: /rings/
+Allow: /watches/
+Allow: /our-story/
+
+# Allow crawling of main pages
+Allow: /index.html
+Allow: /about-us.html
+Allow: /index.html
+Allow: /index.html
+
+# Allow crawling of image directories
+Allow: /images/
+
+# Allow crawling of CSS and JavaScript files
+Allow: /css/
+Allow: /js/
+
+# Allow crawling of specific files
+Allow: /favicon.ico
+Allow: /sitemap.xml
